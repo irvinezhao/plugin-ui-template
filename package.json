@@ -5,6 +5,7 @@
   "scripts": {
     "start": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "plugin": "vue-cli-service build --mode plugin",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
@@ -12,7 +13,7 @@
     "vue": "^2.6.10",
     "vue-router": "^3.0.3"
   },
-  "autor":"<%=author%>",
+  "autor": "<%=author%>",
   "description": "<%=description%>",
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.12.0",
